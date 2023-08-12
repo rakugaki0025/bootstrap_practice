@@ -16,7 +16,6 @@
     <!-- header -->
     <header>
       <div class="header">
-        <div class="container-fluid">
           <div class="d-flex">                <!-- flexbox? -->
               <div class="mr-auto">logo</div> <!-- logo以外右寄せ -->
               <div class="p-2">menu1</div>
@@ -24,33 +23,35 @@
               <div class="p-2">menu3</div>
               <div class="p-2">menu4</div>
           </div>
-        </div>
       </div>
     </header>
     
     
     <!-- sidebar -->
     <sidebar>
-      <div class="sidebar">
-        sidebar
-      </div>
       
     </sidebar>
     
     <!-- main -->
     <main>
       <div class="main">
-        <div class="main-box">
-          <div>box1</div>
-          <div>box2</div>
-          <div>box3</div>
-          <div>box4</div>
-          <div>box5</div>
-          <div>box6</div>
-          <div>box7</div>
-          <div>box8</div>
-          <div>box9</div>
-          
+        <div class="d-flex">
+          <div class="sidebar">
+            sidebar
+          </div>
+            <div class="main-box d-flex">
+              <div class="box-list ">
+                <div>box1</div>
+                <div>box2</div>
+                <div>box3</div>
+                <div>box4</div>
+                <div>box5</div>
+                <div>box6</div>
+                <div>box7</div>
+                <div>box8</div>
+                <div>box9</div>
+              </div>  
+            </div>
         </div>
       </div>
     </main>
@@ -60,10 +61,11 @@
     <footer>
       <div class="footer">
         <div class="footer-list">
-          <div>footer1</div>
-          <div>footer2</div>
-          <div>footer3</div>
-          
+          <div class="d-flex">
+            <div class="p-3">footer1</div> 
+            <div class="p-3">footer2</div>
+            <div class="p-4">footer3</div> <!-- footer3以外左寄せ -->
+          </div>
         </div>
       </div>
     </footer>

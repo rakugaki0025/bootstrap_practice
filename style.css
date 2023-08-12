@@ -27,23 +27,45 @@
 }
 
 .sidebar {
-  width: 90px;                 /* 横幅100% */
-  height: 100%;                /* 高さ 90px */
-  background-color: #d8ffb6;   /* 背景色 黄緑 */
+  margin-left: 250px;          /* 外側余白,左 250px */
+  width: 100%;                 /* 横幅 100% */
+  height: 100%;                /* 高さ 100% */
+  background-color: #d8ffb6;   /* 背景.sidebar */
 }
 
-
-.main {
-  width: 100%;                 /* 横幅100% */
-  height: 90px;                /* 高さ 90px */
+.main-box {
+  margin-right: 280px;         /* 外側余白,右 280px */
+  width: 100%;                 /* 横幅 800px */
+  height: 100%;                /* 高さ 100% */
   background-color: #00b522;   /* 背景色 緑 */
 }
 
+.box-list > div {
+  margin: 10px 100px ;
+  width: 100px;                /* 横幅 800px */
+  height: 100px;                /* 高さ 100% */
+  background-color: #fff75a;   /* 背景色 黄色 */
+}
 
 
 .footer {
-  width: 100%;                 /* 横幅100% */
-  height: 90px;                /* 高さ 90px */
-  background-color: #52a1ff;   /* 背景色 青 */
+ padding: 15px;
+ width: 100%;                /* 横幅 800px */
+ height: 100px;                /* 高さ 100% */
+ background-color: #52a1ff;   /* 背景色 黄色 */
 }
 
+.p-3 {
+ margin: 0 5px;
+ width: 100px;                /* 横幅 800px */
+ height: 50px;                /* 高さ 100% */
+ background-color: #b6e7ff;   /* 背景色 黄色 */
+}
+
+.p-4 {
+ margin: 15px 300px 10px 300px;
+ width: 300px;                /* 横幅 800px */
+ height: 20px;                /* 高さ 100% */
+ background-color: #b6e7ff;   /* 背景色 黄色 */
+ text-align: left; 
+}
